@@ -53,7 +53,7 @@ if($_GPC['done'] == '1') {
 				$ret['user'] = $log['openid'];
 				$ret['fee'] = $log['fee'];
 				$ret['tag'] = $tag;
-								$ret['is_usecard'] = $log['is_usecard'];
+				$ret['is_usecard'] = $log['is_usecard'];
 				$ret['card_type'] = $log['card_type'];
 				$ret['card_fee'] = $log['card_fee'];
 				$ret['card_id'] = $log['card_id'];
